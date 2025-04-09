@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { ContentBox, TabButton, TabContainer, Title, Text } from "./styles";
+import { ContentBox, TabButton, TabContainer, Title, Text, Container } from "./styles";
 
 export default function TabsSection() {
     const [activeTab, setActiveTab] = useState("longe");
   
     return (
-      <div>
+      <Container>
         <TabContainer>
           <TabButton
             active={activeTab === "longe"}
@@ -38,6 +38,6 @@ export default function TabsSection() {
             </Text>
           </ContentBox>
         )}
-      </div>
+      </Container>
     );
   }

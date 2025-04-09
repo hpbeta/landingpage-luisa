@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AccordionContainer = styled.div`
   max-width: 700px;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 0 16px;
 `;
 

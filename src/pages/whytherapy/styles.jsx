@@ -3,7 +3,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
- 
+ background-color: #ede2d9;
   padding: 5rem 2rem;
   display: flex;
   justify-content: center;

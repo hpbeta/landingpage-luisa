@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+  background-color: #e9e7da;
+  padding: 20px 0;
+`
+
 export const TabContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -26,8 +31,8 @@ export const ContentBox = styled.div`
  background: white;
   padding: 48px 40px;
   border-radius: 12px;
-  max-width: 600px;
-  min-height: 320px;
+  max-width: 680px;
+  min-height: 350px;
   margin: 0 auto;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 `;

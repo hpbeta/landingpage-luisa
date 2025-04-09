@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  background-color: #D2E3CE;
+  background-color:#f4eae1;
   text-align: center;
   padding: 60px 20px;
   font-family: 'Segoe UI', sans-serif;
