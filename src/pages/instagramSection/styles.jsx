@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding: 60px 20px;
-  background-color: #fff;
+  background-color: #e9edd9 ;
   text-align: center;
 `;
 

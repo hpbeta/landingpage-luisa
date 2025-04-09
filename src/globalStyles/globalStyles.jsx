@@ -9,7 +9,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 body {
     overflow-x: hidden;
-    background-color: #EDF4EB;
+    background-color: #e9edd9 ;
+    color: #1c1c1c;
 }
 a {
     text-decoration: none;

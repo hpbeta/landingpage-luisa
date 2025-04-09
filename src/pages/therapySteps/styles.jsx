@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  background-color: #f6f0ea;
+background-color: #FDF6F7;
   padding: 5rem 2rem;
   display: flex;
   justify-content: center;

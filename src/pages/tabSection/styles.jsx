@@ -10,7 +10,7 @@ export const TabContainer = styled.div`
 export const TabButton = styled.button.withConfig({
     shouldForwardProp: (prop) => prop !== "active",
   })`
-    background-color: ${({ active }) => (active ? "#ffece0" : "#f2f2e9")};
+   background-color: ${({ active }) => (active ? "#ffece0" : "#f2f2e9")};
     border: none;
     padding: 10px 20px;
     font-weight: bold;

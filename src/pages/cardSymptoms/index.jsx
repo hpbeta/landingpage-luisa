@@ -1,7 +1,15 @@
 
-
 import { BsCheckCircle } from "react-icons/bs";
-import { Container, Description, FooterLink, FooterText, Grid, Heading, Icon, SymptomCard } from "./styles";
+import {
+  Container,
+  Description,
+  FooterLink,
+  FooterText,
+  Grid,
+  Heading,
+  Icon,
+  SymptomCard,
+} from "./styles";
 
 const symptoms = [
   "Preocupações constantes e sensação de que sua mente não desliga nunca",
@@ -12,8 +20,7 @@ const symptoms = [
   "Reações impulsivas para aliviar a tensão (como roer unha ou cutucar a pele)",
   "Sono irregular, crises de choro, coração acelerado, pensamento confuso",
   "Tendência a evitar situações que geram desconforto",
-  "Uso da comida para tentar aliviar emoções difíceis",
-  "Sensação de não estar vivendo com leveza ou propósito"
+  "Uso da comida para tentar aliviar emoções difíceis"
 ];
 
 export function CardSymptoms() {

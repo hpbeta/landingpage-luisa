@@ -1,46 +1,54 @@
+
+
 import styled from "styled-components";
 
 export const Section = styled.section`
-  background: linear-gradient(180deg, #f4eae1 0%, #fceee3 100%);
-  padding: 6rem 1.5rem;
+ 
+  padding: 5rem 2rem;
   display: flex;
   justify-content: center;
 `;
 
 export const Container = styled.div`
-  max-width: 680px;
-  text-align: left;
-  color: #1c1c1c;
+  max-width: 1080px;
+  width: 100%;
+  text-align: center;
+  color: #3d3d3d;
+  background-color: #ffffffcc;
+  padding: 3rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
 `;
 
 export const Title = styled.h2`
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   font-family: "Georgia", serif;
   margin-bottom: 2rem;
-  text-align: center;
+  color: #b8b99e;
 `;
 
 export const Paragraph = styled.p`
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.15rem;
+  line-height: 1.9;
   margin-bottom: 1.2rem;
+  color: #4a4a4a;
 `;
 
 export const Button = styled.a`
   display: inline-block;
   margin-top: 2.5rem;
-  padding: 0.8rem 2rem;
-  background-color: #fceee3;
-  border-radius: 24px;
-  color: #333;
-  font-weight: 500;
+  padding: 1rem 2.5rem;
+  background-color: #b8b99e;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
   font-size: 1rem;
   text-decoration: none;
-  text-align: center;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #f9ded0;
+    background-color: #dcdcc8;
+    color: #333;
   }
 `;
