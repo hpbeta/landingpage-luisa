@@ -42,6 +42,11 @@ export const Card = styled.div`
     transform: translateY(-6px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   }
+
+  @media(max-width: 408px) {
+    width: 310px;
+
+  }
 `;
 
 export const CardTitle = styled.h3`

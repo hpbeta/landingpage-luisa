@@ -14,7 +14,7 @@ export const Nav = styled.nav`
   z-index: 9999;
 
   @media(max-width: 414px) {
-    width: 80%;
+    width: 100%;
   }
 `;
 

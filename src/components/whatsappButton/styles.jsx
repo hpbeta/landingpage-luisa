@@ -37,9 +37,8 @@ export const FloatingButton = styled.a`
 
   @media (max-width: 480px) {
     bottom: 10px;
-    right: 110px;
-    padding: 10px;
-
+    right: 20px;
+   
     svg {
       width: 18px;
       height: 18px;

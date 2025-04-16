@@ -23,6 +23,9 @@ export const Main = styled.main`
     gap: 20px;
     margin-top: 0;
   }
+  @media (max-width: 480px) {
+    margin-top: 100px;
+  }
 
   img {
     width: 750px;
