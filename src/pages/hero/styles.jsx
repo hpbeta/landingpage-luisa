@@ -126,7 +126,7 @@ export const ContainerButton = styled.div`
   @media (max-width: 430px) {
     flex-direction: column;
     gap: 10px;
-    margin-bottom: -130px;
+    margin-bottom: -110px;
   }
   @media (max-width: 390px) {
     flex-direction: column;
