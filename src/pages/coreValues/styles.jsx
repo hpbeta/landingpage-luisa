@@ -8,6 +8,10 @@ export const Section = styled.section`
   gap: 3rem;
   padding: 4rem 2rem;
   flex-wrap: wrap;
+
+  @media(max-width: 480px) {
+    margin-top: 30px;
+  }
 `;
 
 export const ValueCard = styled.div`
