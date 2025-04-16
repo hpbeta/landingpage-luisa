@@ -1,5 +1,3 @@
-
-
 import styled from "styled-components";
 
 export const FloatingButton = styled.a`
@@ -23,7 +21,6 @@ export const FloatingButton = styled.a`
     height: 24px;
   }
 
-  
   @media (max-width: 768px) {
     bottom: 15px;
     right: 15px;
@@ -38,7 +35,7 @@ export const FloatingButton = styled.a`
   @media (max-width: 480px) {
     bottom: 10px;
     right: 20px;
-   
+
     svg {
       width: 18px;
       height: 18px;

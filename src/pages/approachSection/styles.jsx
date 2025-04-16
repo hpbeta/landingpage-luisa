@@ -1,6 +1,3 @@
-
-
-
 import styled from "styled-components";
 
 export const Section = styled.section`
@@ -43,7 +40,7 @@ export const Card = styled.div`
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   }
 
-  @media(max-width: 430px) {
+  @media (max-width: 430px) {
     width: 290px;
     margin-left: 40px;
   }

@@ -1,5 +1,3 @@
-
-
 import styled from "styled-components";
 
 export const Section = styled.section`
@@ -9,7 +7,7 @@ export const Section = styled.section`
   padding: 4rem 2rem;
   flex-wrap: wrap;
 
-  @media(max-width: 480px) {
+  @media (max-width: 480px) {
     margin-top: 30px;
   }
 `;

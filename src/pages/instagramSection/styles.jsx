@@ -1,5 +1,3 @@
-
-
 import styled from "styled-components";
 
 export const Container = styled.section`
@@ -40,8 +38,8 @@ export const Grid = styled.div`
 
 export const PostBox = styled.div`
   background-color: #fff9f6;
-  height: 350px; 
-  
+  height: 350px;
+
   border-radius: 12px;
   overflow: hidden;
 

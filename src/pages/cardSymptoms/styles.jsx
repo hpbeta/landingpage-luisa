@@ -1,5 +1,3 @@
-
-
 import styled from "styled-components";
 
 export const Container = styled.section`
@@ -79,5 +77,4 @@ export const FooterLink = styled.a`
   &:hover {
     background-color: #155d40;
   }
-
 `;

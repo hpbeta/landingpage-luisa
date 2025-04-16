@@ -1,5 +1,3 @@
-
-
 import { FiHeart, FiTarget, FiStar } from "react-icons/fi";
 import { GiBrain } from "react-icons/gi";
 import { Section, ValueCard } from "./styles";

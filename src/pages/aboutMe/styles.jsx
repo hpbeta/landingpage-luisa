@@ -1,6 +1,3 @@
-
-
-
 import styled from "styled-components";
 
 export const Main = styled.main`
@@ -10,8 +7,6 @@ export const Main = styled.main`
 
   @media (max-width: 1024px) {
     gap: 20px;
-    
-   
   }
 
   @media (max-width: 768px) {

@@ -1,9 +1,7 @@
-
-
 import styled from "styled-components";
 
 export const Section = styled.section`
- background-color: #ede2d9;
+  background-color: #ede2d9;
   padding: 5rem 2rem;
   display: flex;
   justify-content: center;
@@ -49,6 +47,5 @@ export const Button = styled.a`
 
   &:hover {
     background-color: #5e8e5c;
-  
   }
 `;

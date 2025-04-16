@@ -1,5 +1,3 @@
-
-
 import { Button, Container, Paragraph, Section, Title } from "./styles";
 
 export function WhyTherapy() {
@@ -18,15 +16,15 @@ export function WhyTherapy() {
           Mas sim de compreendê-las, lidar com elas com mais consciência e fazer
           escolhas alinhadas com quem você é e com o que importa para você.
         </Paragraph>
-        <Paragraph>
-          A ansiedade faz parte da vida.
-        </Paragraph>
-        <Paragraph>
-          Mas ela não precisa tomar conta de tudo.
-        </Paragraph>
-        <Button href="https://wa.me/5521967374546?text=Ol%C3%A1%2C%20Luisa!%20Meu%20nome%20%C3%A9%20(coloque%20o%20seu%20nome%20aqui).%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20psicoterapia!%20%E2%9C%A8"
-  target="_blank"
-  rel="noopener noreferrer">Entre em contato</Button>
+        <Paragraph>A ansiedade faz parte da vida.</Paragraph>
+        <Paragraph>Mas ela não precisa tomar conta de tudo.</Paragraph>
+        <Button
+          href="https://wa.me/5521967374546?text=Ol%C3%A1%2C%20Luisa!%20Meu%20nome%20%C3%A9%20(coloque%20o%20seu%20nome%20aqui).%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20psicoterapia!%20%E2%9C%A8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Entre em contato
+        </Button>
       </Container>
     </Section>
   );
