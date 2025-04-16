@@ -84,9 +84,10 @@ export const ContainerInfo = styled.div`
   @media (max-width: 390px) {
     margin-bottom: 200px;
     padding: 40px 0;
+    
   }
   @media (max-width: 430px) {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
   }
 `;
 
@@ -121,6 +122,11 @@ export const ContainerButton = styled.div`
     flex-direction: column;
     gap: 10px;
   }
+  @media (max-width: 390px) {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: -150px;
+  }
 `;
 
 export const Contact = styled.a`
@@ -145,23 +151,4 @@ export const Contact = styled.a`
   }
 `;
 
-export const ButtonKnowMore = styled.button`
-  color: #ffffff;
-  background-color: #b8b99e;
-  border: none;
-  padding: 15px 20px;
-  border-radius: 5px;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  cursor: pointer;
-  transition: 0.3s;
 
-  &:hover {
-    opacity: 0.8;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 16px;
-    padding: 12px 18px;
-  }
-`;

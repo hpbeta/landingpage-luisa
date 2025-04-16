@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import {
-  ButtonKnowMore,
   Contact,
   ContainerButton,
   ContainerInfo,
@@ -69,7 +68,7 @@ export function Hero() {
             <FaWhatsapp size={16} color="#25D366" />
             Agende sua sessão
           </Contact>
-          <ButtonKnowMore>Saiba mais</ButtonKnowMore>
+        
         </ContainerButton>
       </ContainerInfo>
     </Main>
