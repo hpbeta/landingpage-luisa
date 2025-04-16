@@ -24,7 +24,7 @@ export function Footer() {
       </TopSection>
 
       <Bottom>
-        © 2025 Luisa Fernandez. Todos os direitos reservados.
+      © {new Date().getFullYear()} Luisa Fernandez. Todos os direitos reservados.
       </Bottom>
     </FooterContainer>
   );
