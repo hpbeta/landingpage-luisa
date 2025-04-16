@@ -24,7 +24,7 @@ export const Main = styled.main`
     margin-top: 0;
   }
   @media (max-width: 480px) {
-    margin-top: 100px;
+    margin-top: 64px;
   }
 
   img {
