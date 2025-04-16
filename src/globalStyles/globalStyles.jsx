@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
     background-color: #f1ebe5 ;
     color: #1c1c1c;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
