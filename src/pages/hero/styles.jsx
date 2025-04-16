@@ -110,6 +110,9 @@ export const ParagraphInfo = styled.p`
     line-height: 26px;
     text-align: center;
   }
+  @media (max-width: 430px) {
+   margin-bottom: 50px;
+  }
 `;
 
 export const ContainerButton = styled.div`
