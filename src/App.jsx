@@ -1,3 +1,4 @@
+import { WhatsAppButton } from "./components/whatsappButton"
 import { GlobalStyles } from "./globalStyles/globalStyles"
 import { AboutMe } from "./pages/aboutMe"
 import { ApproachSection } from "./pages/approachSection"
@@ -19,6 +20,7 @@ function App() {
   return (
    <>
    <GlobalStyles />
+   <WhatsAppButton />
     <Header />
     <Hero />
     <CoreValues />

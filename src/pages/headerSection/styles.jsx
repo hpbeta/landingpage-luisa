@@ -24,7 +24,7 @@ export const Subtitle = styled.p`
   margin-bottom: 32px;
 `;
 
-export const ContactButton = styled.button`
+export const ContactButton = styled.a`
 background-color: #468844;
  color: #FFFFFF;
   padding: 12px 24px;
