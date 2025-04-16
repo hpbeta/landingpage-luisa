@@ -5,10 +5,6 @@ export const Main = styled.main`
   justify-content: center;
   flex-wrap: wrap;
 
-  @media (max-width: 1024px) {
-    gap: 20px;
-  }
-
   @media (max-width: 768px) {
     gap: 10px;
     flex-direction: column-reverse;
