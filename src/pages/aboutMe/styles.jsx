@@ -7,15 +7,16 @@ export const Main = styled.main`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
 
   @media (max-width: 1024px) {
     gap: 20px;
-    flex-direction: column-reverse;
+    
+   
   }
 
   @media (max-width: 768px) {
     gap: 10px;
+    flex-direction: column-reverse;
   }
 `;
 
