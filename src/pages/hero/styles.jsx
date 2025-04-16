@@ -81,6 +81,12 @@ export const ContainerInfo = styled.div`
     margin-top: 50px;
     text-align: center;
   }
+  @media (max-width: 396px) {
+    margin-bottom: 70px;
+  }
+  @media (max-width: 430px) {
+    margin-bottom: 200px;
+  }
 `;
 
 export const ParagraphInfo = styled.p`

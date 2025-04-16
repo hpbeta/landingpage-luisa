@@ -12,6 +12,30 @@ export const Section = styled.section`
   }
 `;
 
+export const Title = styled.h1`
+    font-size: 2rem;
+  color: #403d39;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  position: relative;
+  margin-top: -10px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #e4d3c5;
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+`
+
 export const ValueCard = styled.div`
   text-align: center;
   width: 300px;

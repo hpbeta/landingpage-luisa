@@ -1,6 +1,6 @@
 import { FiHeart, FiTarget, FiStar } from "react-icons/fi";
 import { GiBrain } from "react-icons/gi";
-import { Section, ValueCard } from "./styles";
+import { Section, Title, ValueCard } from "./styles";
 
 export function CoreValues() {
   const values = [
@@ -31,7 +31,10 @@ export function CoreValues() {
   ];
 
   return (
+    <>
+      <Title>O que guia cada sessão</Title>
     <Section>
+      
       {values.map((item, index) => (
         <ValueCard key={index} $bg={item.color}>
           {item.icon}
@@ -40,5 +43,6 @@ export function CoreValues() {
         </ValueCard>
       ))}
     </Section>
+    </>
   );
 }
