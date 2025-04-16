@@ -25,17 +25,17 @@ export const Subtitle = styled.p`
 `;
 
 export const ContactButton = styled.button`
-  background-color: transparent;
-  border: 1px solid #d7a78f;
-  color: #4f4039;
+background-color: #468844;
+ color: #FFFFFF;
   padding: 12px 24px;
   border-radius: 999px;
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  border: none;
 
   &:hover {
-    background-color: #ffe7db;
+    background-color: #5e8e5c;
   }
 `;
 

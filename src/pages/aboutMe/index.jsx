@@ -6,7 +6,7 @@ import { ContainerInfo, ContainerInstagram, Img, Main } from "./styles";
 
 export function AboutMe() {
   return (
-    <Main>
+    <Main id="sobre-mim">
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}

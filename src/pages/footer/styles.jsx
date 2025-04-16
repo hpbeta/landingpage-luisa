@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-background-color: #e6e2d6;
   padding: 2rem;
   color: #2e2e2e;
   font-size: 0.9rem;
+  background-color: #e0e0d9;
 `;
 
 export const TopSection = styled.div`

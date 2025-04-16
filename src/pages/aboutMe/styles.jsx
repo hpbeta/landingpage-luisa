@@ -7,7 +7,7 @@ import styled from "styled-components";
 export const Main = styled.main`
   display: flex;
   justify-content: center;
-  padding: 4rem 2rem;
+ // padding: 4rem 2rem;
  
 `;
 
@@ -26,7 +26,8 @@ export const ContainerInfo = styled.div`
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  width: 700px;
+ width: 780px;
+ 
   height: 860px;
 
   h1 {
@@ -72,7 +73,8 @@ export const ContainerInstagram = styled.a`
 `;
 
 export const Img = styled.img`
-  width: 700px;
+  width: 773px;
+
   height: 860px;
   object-fit: cover;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);

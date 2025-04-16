@@ -5,10 +5,13 @@ export const Main = styled.main`
   justify-content: center;
   gap: 40px;
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+  margin-top: 30px;
 
   img {
-    width: 700px;
-    height: 650px;
+    width: 750px;
+    height: auto;
     mask-image: linear-gradient(to left, transparent, black 30%);
 -webkit-mask-image: linear-gradient(to left, transparent, black 30%);
   }
@@ -18,7 +21,7 @@ export const ContainerInfo = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 70px;
+  margin-top: 200px;
   width: 50%;
 
   h1 {

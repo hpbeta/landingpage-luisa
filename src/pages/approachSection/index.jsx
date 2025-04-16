@@ -63,7 +63,7 @@ import { Card, CardText, CardTitle, Container, Grid, Section, Title } from "./st
 
 export function ApproachSection() {
   return (
-    <Section>
+    <Section id="abordagem">
       <Container>
         <Title>
           Minha forma de trabalhar une ciência, estratégia e acolhimento.

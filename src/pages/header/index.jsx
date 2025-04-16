@@ -43,7 +43,7 @@ export function Header() {
 
   return (
     <Nav>
-      <Logo href="#inicio">Luisa Fernandez</Logo>
+      <Logo href="/">Luisa Fernandez</Logo>
 
       <Hamburger onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}

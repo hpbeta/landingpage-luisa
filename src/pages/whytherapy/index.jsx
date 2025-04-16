@@ -4,7 +4,7 @@ import { Button, Container, Paragraph, Section, Title } from "./styles";
 
 export function WhyTherapy() {
   return (
-    <Section>
+    <Section id="beneficios">
       <Container>
         <Title>Por que fazer terapia?</Title>
         <Paragraph>

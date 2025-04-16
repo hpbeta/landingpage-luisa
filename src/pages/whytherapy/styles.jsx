@@ -39,7 +39,7 @@ export const Button = styled.a`
   display: inline-block;
   margin-top: 2.5rem;
   padding: 1rem 2.5rem;
-  background-color: #b8b99e;
+  background-color: #468844;
   border-radius: 30px;
   color: #fff;
   font-weight: 600;
@@ -48,7 +48,7 @@ export const Button = styled.a`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #dcdcc8;
-    color: #333;
+    background-color: #5e8e5c;
+  
   }
 `;

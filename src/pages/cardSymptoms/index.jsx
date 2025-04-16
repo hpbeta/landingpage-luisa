@@ -25,7 +25,7 @@ const symptoms = [
 
 export function CardSymptoms() {
   return (
-    <Container>
+    <Container id="sintomas">
       <Heading>
         Se a ansiedade tem impactado sua vida, talvez você se reconheça em
         algumas dessas situações:

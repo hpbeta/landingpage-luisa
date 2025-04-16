@@ -54,7 +54,7 @@ export  function FaqAccordion() {
   };
 
   return (
-    <AccordionContainer>
+    <AccordionContainer id="faq">
       <Title>Perguntas Frequentes</Title>
       {faqs.map((item, index) => (
         <AccordionItem key={index} onClick={() => toggle(index)}>
