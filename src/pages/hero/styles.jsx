@@ -81,11 +81,12 @@ export const ContainerInfo = styled.div`
     margin-top: 50px;
     text-align: center;
   }
-  @media (max-width: 396px) {
-    margin-bottom: 70px;
+  @media (max-width: 390px) {
+    margin-bottom: 200px;
+    padding: 40px 0;
   }
   @media (max-width: 430px) {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
   }
 `;
 

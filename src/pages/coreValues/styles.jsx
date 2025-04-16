@@ -7,8 +7,8 @@ export const Section = styled.section`
   padding: 4rem 2rem;
   flex-wrap: wrap;
 
-  @media (max-width: 480px) {
-    margin-top: 30px;
+  @media (max-width: 390px) {
+    margin-top: 50px;
   }
 `;
 
@@ -33,6 +33,9 @@ export const Title = styled.h1`
 
   @media (max-width: 768px) {
     font-size: 1.6rem;
+  }
+  @media (max-width: 390px) {
+    margin-top: 50px;
   }
 `
 
