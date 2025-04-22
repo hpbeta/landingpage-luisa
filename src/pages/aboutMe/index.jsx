@@ -27,7 +27,7 @@ export function AboutMe() {
         })}
       >
         <ContainerInfo>
-          <h1>Quem é Luisa Fernandes?</h1>
+          <h1>Quem é Luisa Fernandez?</h1>
           <h2>"Antes de ser psicóloga, eu também precisei me escutar."</h2>
           <p>
             Durante o meu mestrado em Portugal, vivi uma fase de muitas mudanças
